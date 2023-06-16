@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Return: Always 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -13,3 +13,4 @@ int main(void)
 	printf("Size of a float: %d byte(s)\n", Sizeof(float));
 	return (0);
 }
+
