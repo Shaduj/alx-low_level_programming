@@ -11,7 +11,7 @@ int main(void)
 	c = 'a';
 	while
 		(C <= 'b') {
-			putchar(c);
+			putchar(C);
 			C++;
 		}
 	putchar('\n');
