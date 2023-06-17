@@ -10,9 +10,9 @@ int main(void)
 
 	c = 'a';
 	while
-		(c <= 'b') {
+		(C <= 'b') {
 			putchar(c);
-			c++;
+			C++;
 		}
 	putchar('\n');
 	return (0);
