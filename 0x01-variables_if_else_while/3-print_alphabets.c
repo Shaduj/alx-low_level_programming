@@ -1,26 +1,25 @@
 #include<stdio.h>
 /**
  * main - Entry point
- * Return: Alway 0
+ * Description - 'print alphabet lowercase and uppecase'
+ * Return: Always 0
  */
-
 int main(void)
 {
-	char C;
-	char d;
+	int l = 97;
+	int u = 65;
 
-	C = 'a';
-	d = 'A';
-	while
-		(C <= 'z') {
-			putchar(C);
-			C++;
-		}
-	while
-		(d <= 'z') {
-			putchar(d);
-			d++;
-		}
-	putchar('\n');
+	while (l <= 122)
+	{
+		putchar(l);
+		l++;
+	}
+	while (u <= 90)
+	{
+		putchar(u);
+		u++;
+	}
+	putchar('\n')
+		;
 	return (0);
 }
