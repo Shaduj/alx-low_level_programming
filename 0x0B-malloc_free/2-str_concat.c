@@ -27,9 +27,10 @@ char *str_concat(char *s1, char *s2)
 
 	if (contwo == NULL)
 		return (NULL);
-	for (i = 0; s1[i] != '\0'; i++)
+	for (i = 0; i < s1len; i++)
 		contwo[i] = s1[i];
-	for (i = 0; s2[i] != '\0'; i++)
+	for (i = 0; i < s2len; i++)
 		contwo[s1len + i] = s2[i];
+	contwo[(s1len + s2len + 1) - 1] = '\0';
 	return (contwo);
 }
